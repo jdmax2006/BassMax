@@ -8,6 +8,10 @@ function  CrearHTMLCancion (data){
 axios.get('https://api.institutoalfa.org/api/songs')
   .then(function (response) {
     // handle success
-    console.log(response);
+    console.log(response.data.songs);
+
+    response.data.songs.map(function () {
+        contenedorCanciones.appendChild(CrearHTMLCancion(data))
+    })
   })
  
