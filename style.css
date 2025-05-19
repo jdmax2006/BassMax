@@ -79,6 +79,7 @@ body{
 }
 
 .container{
+    width: 90%;
     margin: 50px auto;
     display: flex;
     justify-content: space-around;
@@ -96,4 +97,71 @@ body{
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.container .play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.barra-inferior{
+    position: fixed center;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(99, 96, 96);
+    border-radius: 100px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.reproductor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.controles{
+
+}
+
+.barra-tiempo{
+    
+}
+
+.footer{
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(99, 96, 96);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px 15px 0 0;
 }
