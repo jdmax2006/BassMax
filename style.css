@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    padding: 20px;
+    padding: 20px ;
     background-color: gray;
 }
 
@@ -142,24 +142,40 @@ img{
     gap: 20px;
 }
 
-.controles{
-
+.controles .play-pause, .prev, .next{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
 }
 
-.barra-tiempo{
-    
+.controles button:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.controles svg{
+    width: 30px;
+    height: 30px;
+}
+
+.barra-tiempo .progreso{
+    width: 100%;
+    height: 10px;
+    border-radius: 15px;
 }
 
 .footer{
-    margin-bottom: 0px;
-    position: fixed;
-    bottom: 0;
+
+    margin: 30px auto;
+    position: static;
+    bottom: 0px;
     left: 0;
     width: 100%;
     background-color: rgb(99, 96, 96);
     padding: 20px;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 600;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
