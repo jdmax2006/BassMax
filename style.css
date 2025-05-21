@@ -100,6 +100,8 @@ body{
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .container .card{
@@ -125,7 +127,9 @@ body{
     color: white;
     border-radius: 15px;
     padding: 10px;
+    margin: 15px 0px;
 }
+
 
 .container .play a{
     text-decoration: none;
@@ -133,8 +137,8 @@ body{
 }
 
 .barra-inferior{
-    
-    position: fixed center;
+    position: sticky;
+    bottom: 0px;
     margin: 0 auto;
     width: 50%;
     display: flex;
@@ -183,7 +187,7 @@ body{
 }
 
 .footer{
-    position: fixed;
+    /* position: fixed; */
     bottom: 0px;
     left: 0;
     width: 100%;

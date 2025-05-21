@@ -12,11 +12,11 @@
 </head>
 <body>
     
-    <div class="barra" id="playlist">
+    <div class="barra">
         <div class="logo">
             <h1>BassMax</h1>
         </div>
-+
+
     <div class="buscador">
             <input type="text" placeholder="Buscar música...">
             <button class="lupa"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M14.385 15.446a6.751 6.751 0 1 1 1.06-1.06l5.156 5.155a.75.75 0 1 1-1.06 1.06zM6.46 13.884a5.25 5.25 0 1 1 7.43-.005l-.005.005l-.005.004a5.25 5.25 0 0 1-7.42-.004" clip-rule="evenodd"/></svg></button>
@@ -33,7 +33,9 @@
     </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="playlist"></div>
+
+    <!-- <div class="container">
 
         <div class="card">
             <img src="assets/img/OIP.jpeg" alt="Imagen de la canción">
@@ -67,51 +69,15 @@
             <button class="play"><a href="Casete.html">Reproducir</a></button>
         </div>
 
-    </div>
-
-    <div class="container">
-
-        <div class="card">
-            <img src="assets/img/OIP.jpeg" alt="Imagen de la canción">
-            <h2>Título de la Canción</h2>
-            <p>Artista: Nombre del Artista</p>
-            <p>Álbum: Nombre del Álbum</p>
-            <button class="play"><a href="Casete.html">Reproducir</a></button>
-        </div>
-
-        <div class="card">
-            <img src="assets/img/OIP.jpeg" alt="Imagen de la canción">
-            <h2>Título de la Canción</h2>
-            <p>Artista: Nombre del Artista</p>
-            <p>Álbum: Nombre del Álbum</p>
-            <button class="play"><a href="Casete.html">Reproducir</a></button>
-        </div>
-
-        <div class="card">
-            <img src="assets/img/OIP.jpeg" alt="Imagen de la canción">
-            <h2>Título de la Canción</h2>
-            <p>Artista: Nombre del Artista</p>
-            <p>Álbum: Nombre del Álbum</p>
-            <button class="play"><a href="Casete.html">Reproducir</a></button>
-        </div>
-
-        <div class="card">
-            <img src="assets/img/OIP.jpeg" alt="Imagen de la canción">
-            <h2>Título de la Canción</h2>
-            <p>Artista: Nombre del Artista</p>
-            <p>Álbum: Nombre del Álbum</p>
-            <button class="play"><a href="Casete.html">Reproducir</a></button>
-        </div>
-
-    </div>
+    </div> -->
 
     <div class="barra-inferior">
         <div class="reproductor">
             <img src="assets/img/OIP.jpeg" alt="Portada" class="cover">
             <div class="info">
-                <span class="titulo">Título de la Canción</span>
+                <span class="titulo" id="titulo">Título de la Canción</span>
                 <br>
-                <span class="artista">Nombre del Artista</span>
+                <span class="artista" id="artista">Nombre del Artista</span>
             </div>
 
             <div class="controles">
